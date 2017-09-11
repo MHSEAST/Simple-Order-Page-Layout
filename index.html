@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" padding="5px">
+        <tr>    
+            <th colspan="4"> Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+           
+            <td> <label for="name">Name</label> </td>
+            <td colspan="3"><input id="name" type="text" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="topping"> Pizza Topping</td>
+            <td><input type="radio" name="topping" value="Supreme" id="supreme"><label for="supreme">Supreme</label><br /> 
+            <input type="radio" name="topping" value="Vegetarian" id="vegetarian"><label for="vegetarian">Vegetarian</label><br />
+            <input type="radio" name="topping" value="Hawaiian" id="hawaiian"><label for="hawaiian">Hawaiian</label></td>
+            </tr>
+            <tr>
+               <td> <label for="sauce">Pizza Sauce</label></td>
+               
+                <td>
+                    <select name="Pizza Sauce" id="sauce">
+                    <option value="Tomato" id="tomato"><label for="tomato">Tomato</label></option>
+                   <option value="Chilli Sauce" id="chilli"><label for="chilli sauce">Chilli Sauce</label></option>
+                   <option value="Garlic Sauce" id="garlic"><label for="garlic sauce">Garlic Sauce</label></option>
+
+                    </select> </td>
+                   </tr>
+    <tr>
+    <td>Option Extra</td>
+    <td><input type="checkbox" name="optional" value="Extra Cheese" rowspan="2" id="extra cheese"><label for="extra cheese">Extra Cheese</label>
+    <input type="checkbox" name="optional" value="Gluten Free Base" rowspan="2" id="gluten free base"><label for="gluten free base">Gluten Free Base</label></td>
+     </tr>
+     <tr>
+         <td colspan="4"><label for="delivery">Delivery Instruction: </label> <br/> <textarea name="Delivery Instruction" id="delivery"  cols="50" rows="5"></textarea></td>
+     </tr>
+<tr>
+    <td colspan="4 "><input type="button" name="button" value="Send My Order"></td>
+</tr>
+    </table>
+</body>
+</html>
